@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Calculator</title>
+
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Calculator</h1>
+
+    <div class="outer" style="margin-left: 37%;">
+        
+            <input type="text" class="display"/>
+        
+
+        <div class="buttons">
+        <button class="btn" id="btn7" onclick="ChangeTextValue('7')">7</button>
+        <button class="btn" id="btn8" onclick="ChangeTextValue('8')">8</button>
+        <button class="btn" id="btn9" onclick="ChangeTextValue('9')">9</button>
+        <button class="btn" id="btn_div" onclick="ChangeTextValue('/')">/</button>
+        </div>
+
+        <div class="buttons">
+        <button class="btn" id="btn4" onclick="ChangeTextValue('4')">4</button>
+        <button class="btn" id="btn5" onclick="ChangeTextValue('5')">5</button>
+        <button class="btn" id="btn6" onclick="ChangeTextValue('6')">6</button>
+        <button class="btn" id="btn_mult" onclick="ChangeTextValue('*')">*</button>
+        </div>
+
+        <div class="buttons">
+        <button class="btn" id="btn1" onclick="ChangeTextValue('1')">1</button>
+        <button class="btn" id="btn2" onclick="ChangeTextValue('2')">2</button>
+        <button class="btn" id="btn3" onclick="ChangeTextValue('3')">3</button>
+        <button class="btn" id="btn_minus" onclick="ChangeTextValue('-')">-</button>
+        </div>
+
+        <div class="buttons">
+        <button class="btn" id="btn0" onclick="ChangeTextValue('0')">0</button>
+        <button class="btn" id="btn_dot" onclick="ChangeTextValue('.')">.</button>
+        <button class="btn" id="btnC" onclick="ChangeTextValue('C')">C</button>
+        <button class="btn" id="btn_add" onclick="ChangeTextValue('+')">+</button>
+        </div>
+
+        <div class="equal">
+            <button class="equals" id="eqbutton" onclick="ChangeTextValue('=')">=</button>
+        </div>
+        
+    </div>
+
+    
+
+
+   <script src="calculator.js"></script>
+</body>
+</html>
