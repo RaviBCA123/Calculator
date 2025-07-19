@@ -1,5 +1,5 @@
 *{
-    text-align: center;
+    /* text-align: center; */
     /* align-items: center; */
     /* display: flex;
     align-items: center; */
@@ -8,15 +8,16 @@
     border: 2px solid black;
     height: 330px;
     width: 250px;
-    display: flexbox;
     align-items: center;
     text-align: center;
     background-color:rgb(26, 39, 50);
-    border-radius: 15px;
-    
+    border-radius: 15px;   
+    margin: auto;
 }
 
-
+h1{
+    text-align: center;
+}
 .square input{
     height: 50px;
     width: 200px;
